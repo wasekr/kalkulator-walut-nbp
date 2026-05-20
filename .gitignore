@@ -1,0 +1,14 @@
+# Ignoruj foldery budowania CMake
+cmake-build-*/
+build/
+build_ubuntu/
+build_release/
+
+# Ignoruj pliki srodowiska CLion
+.idea/
+
+# Ignoruj skompilowane programy
+*.exe
+*.obj
+*.o
+projekt_kalkulator_walut
