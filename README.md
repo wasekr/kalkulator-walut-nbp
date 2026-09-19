@@ -39,4 +39,4 @@ Przeliczenie kwoty:
 ```
 
 ## 🤖 Deklaracja użycia AI
-Zgodnie z wytycznymi dotyczącymi realizacji projektu, oświadczam, że podczas pisania kodu oraz rozwiązywania problemów ze środowiskiem (takich jak konfiguracja CMake, optymalizacja kompilacji na MinGW czy obsługa kodowania UTF-8 w terminalu Windows). Sztuczna inteligencja pełniła rolę przewodnika (Code Reviewer), pomagając w zrozumieniu błędów kompilatora.
+Podczas pisania kodu oraz rozwiązywania problemów ze środowiskiem (takich jak konfiguracja CMake, optymalizacja kompilacji na MinGW czy obsługa kodowania UTF-8 w terminalu Windows). Sztuczna inteligencja pełniła rolę przewodnika (Code Reviewer), pomagając w zrozumieniu błędów kompilatora.
