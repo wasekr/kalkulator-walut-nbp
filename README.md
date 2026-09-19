@@ -30,7 +30,7 @@ To compile the project, you must have a modern C++ compiler and CMake installed.
 **View Help Menu:**
 `./projekt_kalkulator_walut --help`
 
-**View Available Currency Codes:**
+**View Available Currency Codes (abbreviations):**
 `./projekt_kalkulator_walut -l`
 *This flag bypasses the conversion logic and exclusively prints the supported NBP currency list.*
 
