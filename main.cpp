@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 #include <algorithm> // std::transform
 #include <nlohmann/json.hpp>
 
@@ -136,6 +137,17 @@ int main(int argc, char** argv) {
     std::cout << "-----------------WYNIK-----------------" << "\n";
     std::cout << value << " w " << currency_from << " jest warte: " << result << " w " << currency_to << "\n";
     std::cout << "---------------------------------------" << "\n";
+
+    std::ofstream file;
+    // app means append
+    file.open("history.csv", std::ios::app);
+    if (file.is_open()) {
+        file << value << "," << currency_from << "," << currency_to << "," << result << "\n";
+        file.close();
+        std::cout << "Saved query into history.csv file.\n";
+    }else {
+        std::cerr << "Error: could not save query into history.csv file.\n";
+    }
 
     return 0;
 }
